@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cradle - Text Workflow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cradle - Text Workflow</h1>
+        <textarea id="inputText" placeholder="Paste your text here..."></textarea>
+        <div class="actions">
+            <button id="processBtn">Process Text</button>
+            <select id="languageSelect">
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+            </select>
+            <button id="translateBtn">Translate</button>
+        </div>
+        <div class="results">
+            <div>
+                <h3>Keywords</h3>
+                <div id="keywords"></div>
+            </div>
+            <div>
+                <h3>Summary</h3>
+                <div id="summary"></div>
+            </div>
+            <div>
+                <h3>Translation</h3>
+                <div id="translation"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
