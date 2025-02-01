@@ -1,21 +1,48 @@
-# Cradle - Text Workflow
+# Cradle - Intelligent Text Processing Workflow
 
 ## Overview
-Cradle is a web application that processes text through keyword extraction, summarization, and optional translation.
+Cradle is an advanced web application designed to provide intelligent text processing capabilities, including keyword extraction, text summarization, and multi-language translation. Leveraging state-of-the-art natural language processing techniques, Cradle helps users derive insights and understand text more effectively.
 
 ## Features
-- Text keyword extraction
-- Text summarization
-- Multi-language translation
+- Keyword Extraction: Identify the most important keywords in a given text
+- Text Summarization: Generate concise summaries of long-form content
+- Multi-language Translation: Translate text between various languages
 
-## Setup
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Download spaCy model: `python -m spacy download en_core_web_sm`
-4. Run the backend: `python backend/app.py`
-5. Open `frontend/index.html` in a browser
+## Prerequisites
+- Python 3.8+
+- pip
+- Git
+
+
+## Project Structure
+```
+Cradle/
+│
+├── Backend/                # Python Flask backend
+│   ├── app.py              # Main application file
+│   └── services/           # NLP service modules
+│       ├── keyword_extraction.py
+│       ├── summarization.py
+│       └── translation.py
+│
+├── Frontend/               # Web interface
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
+│
+├── nltk_data/              # NLTK downloaded resources
+├── requirements.txt        # Python dependencies
+└── README.md
+```
 
 ## Tech Stack
-- Backend: Python, Flask
-- Frontend: HTML, CSS, JavaScript
-- Libraries: HuggingFace Transformers, spaCy, RAKE
+- Backend: 
+  - Python
+  - Flask
+  - spaCy
+  - NLTK
+  - HuggingFace Transformers
+- Frontend: 
+  - HTML5
+  - CSS3
+  - Vanilla JavaScript
