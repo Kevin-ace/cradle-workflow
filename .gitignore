@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+
+# NLTK Data (if you want to keep local downloads out)
+nltk_data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment and sensitive files
+.env
+*.env
+.env.*
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Backup files
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# Frontend build artifacts
+Frontend/dist/
+Frontend/build/
+
+# Miscellaneous
+.DS_Store
+.AppleDouble
+.LSOverride
